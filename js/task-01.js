@@ -3,10 +3,6 @@ const countChildren = ulEl.children.length;
 console.log(`Number of categories: ${countChildren}`);
 
 
-
-
-
-
 const liEl = ulEl.children;
 
 for (let i = 0; i < liEl.length; i += 1) {
@@ -18,9 +14,5 @@ for (let i = 0; i < liEl.length; i += 1) {
   const countChild = childrenLi[1].children.length;
   console.log('Elements:', countChild);
 };
-
-
-
-
 
 

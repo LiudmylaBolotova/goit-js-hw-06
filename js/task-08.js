@@ -1,7 +1,6 @@
 const formEl = document.querySelector('.login-form');
 
 
-
 const onFormSubmit = event => {
     event.preventDefault();
 
